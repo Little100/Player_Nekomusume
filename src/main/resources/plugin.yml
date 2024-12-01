@@ -1,0 +1,13 @@
+name: Player_Nekomusume
+version: '${version}'
+main: org.little_100.player_nekomusume.Player_Nekomusume
+author: little_100
+commands:
+  nekomusume:
+    description: 插件命令
+    usage: /<command> [reload]
+
+permissions:
+  nekomusume.reload:
+    description: 允许重载猫娘插件配置
+    default: op

@@ -1,0 +1,38 @@
+enabled: true # 开启/关闭该插件 enable/disable this plugin
+text:
+  prefix: # 前缀列表 prefix list
+    - "猫娘"
+    - "喵~"
+    - "喵呜~"
+    - "主人"
+  suffix: # 后缀列表 suffix list
+    - " ヾ(=^▽^=)ノ"
+    - " (´･ω･`)"
+    - " ~喵"
+    - "喜欢你哦"
+    - "喜欢~"
+    - "nya~"
+color: # 前后缀颜色 color of prefix and suffix
+  prefix:
+    - "&d"
+  suffix:
+    - "&d"
+# 假设玩家发送信息为我的世界 那么将会从前缀和后缀里面随机选一个变成[前缀]我的世界[后缀]
+# If the player sends a message in Minecraft, it will randomly select one from the prefix and suffix to become [prefix] Minecraft [suffix]
+# 颜色代码参考：
+#&0 黑色
+#&1 深蓝
+#&2 深绿
+#&3 深青
+#&4 深红
+#&5 紫色
+#&6 金色
+#&7 灰色
+#&8 深灰
+#&9 蓝色
+#&a 亮绿
+#&b 亮青
+#&c 红色
+#&d 亮紫
+#&e 黄色
+#&f 白色
